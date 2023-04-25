@@ -10,7 +10,7 @@ export default function Register() {
         e.preventDefault();
         console.log("calledRegister");
         try {
-            const u = await fetch("http://localhost:3001/register", {
+            const u = await fetch("http://3.25.229.144:3001/register", {
             method: "POST",
             body: JSON.stringify({username: username, password: password}),
             headers: {"Content-Type": "application/json"}

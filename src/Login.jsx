@@ -8,7 +8,7 @@ export default function Login() {
 
     async function checkLogin(e) {
         e.preventDefault();
-        const u = await fetch("http://localhost:3001/login", {
+        const u = await fetch("http://3.25.229.144:3001/login", {
             method: "POST",
             body: JSON.stringify({username, password}),
             headers: {"Content-Type": "application/json"}
