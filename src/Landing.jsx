@@ -12,7 +12,7 @@ export default function Landing() {
             <div className="border-red-900 border-2 w-96 h-96 flex flex-col 
             items-center justify-evenly">
                 <p>Hi</p>
-                <Link to={"/login"} className="h-24 w-36 flex bg-slate-200 flex-col 
+                <Link to={"/login_site/login"} className="h-24 w-36 flex bg-slate-200 flex-col 
                 justify-center items-center shadow-md">Login</Link>
             </div>
         </div>

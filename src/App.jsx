@@ -8,10 +8,10 @@ function App() {
   return (
     <>
     <Routes>
-      <Route index element={<Landing />} />
-      <Route path="/login" element={<Login/>}/>
-      <Route path="/register" element={<Register/>}/>
-      <Route path="/home" element={<Home/>}/>
+      <Route path="/login_site" element={<Landing />} />
+      <Route path="/login_site/login" element={<Login/>}/>
+      <Route path="/login_site/register" element={<Register/>}/>
+      <Route path="/login_site/home" element={<Home/>}/>
     </Routes>
     </>
   );

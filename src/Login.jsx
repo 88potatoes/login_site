@@ -16,9 +16,9 @@ export default function Login() {
         const body = await u.json();
         
         if (body.username) {
-            navigate("/home");
+            navigate("/login_site/home");
         } else {
-            alert(" no match");
+            alert("invalid credentials");
         }
     };
     
@@ -32,7 +32,7 @@ export default function Login() {
             <input type="text" className="rounded-md" placeholder="password" value={password} onChange={ev => setPassword(ev.target.value)}/>
             <button type="submit">Login</button>
           </form>
-          <Link to="/register" className="bg-slate-50">Register Here</Link>
+          <Link to="/login_site/register" className="bg-slate-50">Register Here</Link>
         </div>
     </div>
     );

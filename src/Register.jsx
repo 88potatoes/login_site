@@ -24,7 +24,7 @@ export default function Register() {
             }
 
             alert("user has been successfully created")
-            navigate("/login");
+            navigate("/login_site/login");
             
         } catch (error) {
             console.log(error);
